@@ -20,6 +20,6 @@ To clone and run the application, you will need to have [Git](https://git-scm.co
 ```bash
 # Create new App
 
-$ degit https://github.com/YagoLopes/template-nextjs-chakra [NOME_DO_PROJETO]
+$ npx degit https://github.com/YagoLopes/template-nextjs-chakra [NOME_DO_PROJETO]
 
 ```
