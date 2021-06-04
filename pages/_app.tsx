@@ -1,11 +1,11 @@
-import ThemeContainer from "../contexts/theme/ThemeContainer"
+import React from 'react'
+import { AppProps } from 'next/app'
+import ThemeContainer from '../contexts/theme/ThemeContainer'
 
-function MyApp({ Component, pageProps }) {
-  return (
+const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => (
     <ThemeContainer>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
     </ThemeContainer>
-  )
-}
+)
 
 export default MyApp
